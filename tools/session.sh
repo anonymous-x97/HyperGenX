@@ -42,7 +42,7 @@ apt-get upgrade -y
 pkg upgrade -y
 pkg install python wget -y
 pkg install pip3
-wget https://raw.githubusercontent.com/NotShroudX97/HyperGenX/main/tools/genx.py
+wget https://raw.githubusercontent.com/NotShroudX97/HyperGenX/mai/tools/genx.py
 pip3 install pyrogram
 pip3 install tgcrypto
 clear
