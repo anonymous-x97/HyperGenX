@@ -16,21 +16,7 @@ from dotenv import load_dotenv
 
 if os.path.isfile("config.env"):
     load_dotenv("config.env")
-echo -e "\e[1m"
 
-echo "  _    _ _ _             _     _ "
-
-echo " | |  | | | |           (_)   | |"
-
-echo " | |  | | | |_ _ __ ___  _  __| |"
-
-echo " | |  | | | __| '__/ _ \| |/ _  |"
-
-echo " | |__| | | |_| | | (_) | | (_| |"
-
-echo "  \____/|_|\__|_|  \___/|_|\__,_|"
-
-echo -e "\e[0m"
 
 async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
     async with Client(
