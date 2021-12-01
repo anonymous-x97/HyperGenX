@@ -35,7 +35,6 @@ printLogo() {
                  X:::::X       X:::::X                
                  X:::::X       X:::::X                
                  XXXXXXX       XXXXXXX                
-'
     printLine
 }
 
