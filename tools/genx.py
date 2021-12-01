@@ -19,7 +19,6 @@ if os.path.isfile("config.env"):
 
 printLogo() {
     printLine
-    echo '
                  XXXXXXX       XXXXXXX                
                  X:::::X       X:::::X                
                  X:::::X       X:::::X                
