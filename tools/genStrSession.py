@@ -29,5 +29,4 @@ async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
             "me", f"#HyperGenX | @UsergeXForkUpdates #HU_STRING_SESSION\n\n```{await userge.export_session_string()}```")
         print("Done!, HyperGenX Session String Has Been Sent To Saved Messages!")
 
-if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(genStrSession())
+
