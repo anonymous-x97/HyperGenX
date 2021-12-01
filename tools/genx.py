@@ -16,27 +16,21 @@ from dotenv import load_dotenv
 
 if os.path.isfile("config.env"):
     load_dotenv("config.env")
+echo -e "\e[1m"
 
-print("
+echo "  _    _ _ _             _     _ "
 
-                 XXXXXXX       XXXXXXX                
-                 X:::::X       X:::::X                
-                 X:::::X       X:::::X                
-                 X::::::X     X::::::X                
-                 XXX:::::X   X:::::XXX                
-                    X:::::X X:::::X                   
-                     X:::::X:::::X                    
- ---------------      X:::::::::X      ---------------
- -:::::::::::::-      X:::::::::X      -:::::::::::::-
- ---------------     X:::::X:::::X     ---------------
-                    X:::::X X:::::X                   
-                 XXX:::::X   X:::::XXX                
-                 X::::::X     X::::::X                
-                 X:::::X       X:::::X                
-                 X:::::X       X:::::X                
-                 XXXXXXX       XXXXXXX                
+echo " | |  | | | |           (_)   | |"
 
-}
+echo " | |  | | | |_ _ __ ___  _  __| |"
+
+echo " | |  | | | __| '__/ _ \| |/ _  |"
+
+echo " | |__| | | |_| | | (_) | | (_| |"
+
+echo "  \____/|_|\__|_|  \___/|_|\__,_|"
+
+echo -e "\e[0m"
 
 async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
     async with Client(
