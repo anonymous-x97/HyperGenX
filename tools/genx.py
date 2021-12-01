@@ -35,7 +35,7 @@ print("
                  X:::::X       X:::::X                
                  X:::::X       X:::::X                
                  XXXXXXX       XXXXXXX                
-    ")
+
 }
 
 async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
