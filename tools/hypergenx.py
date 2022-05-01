@@ -14,9 +14,9 @@ import asyncio
 from pyrogram import Client
 from dotenv import load_dotenv
 
-API_KEY = int(input("Enter API_ID: "))
+API_ID = int(input("Enter API_ID: "))
 API_HASH = input("Enter API_HASH: ")
-with Client('in_memory=True', api_id=API_KEY, api_hash=API_HASH) as app:
+with Client('in_memory=True', api_id=API_ID, api_hash=API_HASH) as app:
 	app.send_message(
 	    "me",
 	    f"#HU_STRING_SESSION\n\n```{app.export_session_string()}```"
