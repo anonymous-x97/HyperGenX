@@ -5,8 +5,10 @@ outt() {
 }
 
 welcome(){
-echo -e "The process will take 200-300mb to download files
-and will take around 900mb after unpack."
+echo -e "
+The process will take 200-300mb to download files
+and will take around 900mb of storage after unpack.
+"
 }
 
 update(){
@@ -16,7 +18,8 @@ echo -e "Done"
 }
 
 install(){
-echo -e "2.Installing Requirements"
+echo -e "2.Installing Requirements,
+  This may take upto 5 minutes depending on your internet speed."
 outt "$(
 pkg install -y git python3
 pip3 install python-dotenv
@@ -34,7 +37,8 @@ clone(){
 echo -e "3.Clonning String Repo"
 outt rm -rf string
 outt git clone -q https://github.com/anonymous-x97/HyperGenX string
-echo -e "Done,"
+echo -e "Done
+"
 }
 
 start(){
