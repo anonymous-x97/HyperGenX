@@ -43,7 +43,7 @@ echo -e "Done
 }
 
 start(){
-echo -e"4.Starting Generator
+echo -e "4.Starting Generator
 "
 cd string
 bash gen
