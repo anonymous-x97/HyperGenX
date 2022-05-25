@@ -44,7 +44,7 @@ echo -e "Done"
 start(){
 echo -e "4.Starting Generator"
 cd string
-sleep 5
+sleep 3
 bash gen
 }
 
