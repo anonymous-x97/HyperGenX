@@ -19,8 +19,8 @@ echo -e "Done"
 
 install(){
 echo -e "2.Installing Requirements,
-  This may take upto 5 minutes depending on your 
-  internet speed."
+  This may take upto 5 minutes or more, depending on your 
+  internet speed and device capabilities."
 outt "$(
 pkg install -y git python3
 pip3 install python-dotenv
