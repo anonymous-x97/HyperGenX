@@ -7,4 +7,7 @@
 # Please see < https://github.com/uaudith/Userge/blob/master/LICENSE >
 #
 # All rights reserved. 
+
+python3 clean_up.py
+
 python3 tools/hypergenx.py
